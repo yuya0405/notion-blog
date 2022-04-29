@@ -13,22 +13,22 @@ const contacts = [
   {
     Comp: Twitter,
     alt: 'twitter icon',
-    link: 'https://twitter.com/_ijjk',
+    link: 'https://twitter.com/oh884U8',
   },
   {
     Comp: GitHub,
     alt: 'github icon',
-    link: 'https://github.com/ijjk',
+    link: 'https://github.com/yuya0405',
   },
   {
     Comp: LinkedIn,
     alt: 'linkedin icon',
-    link: 'https://www.linkedin.com/in/jj-kasper-0b5392166/',
+    link: 'https://www.linkedin.com/in/yuya-ohbayashi/',
   },
   {
     Comp: Envelope,
     alt: 'envelope icon',
-    link: 'mailto:jj@jjsweb.site?subject=Notion Blog',
+    link: 'yuya9445@gmail.com',
   },
 ]
 
@@ -43,10 +43,7 @@ export default function Contact() {
 
         <h1 style={{ marginTop: 0 }}>Contact</h1>
 
-        <div className={contactStyles.name}>
-          JJ Kasper - Next.js Engineer @{' '}
-          <ExtLink href="https://vercel.com">Vercel</ExtLink>
-        </div>
+        <div className={contactStyles.name}>Yuya Ohbayashi - oh884U8</div>
 
         <div className={contactStyles.links}>
           {contacts.map(({ Comp, link, alt }) => {
