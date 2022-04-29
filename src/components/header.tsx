@@ -26,7 +26,7 @@ const Header = ({ titlePre = '' }) => {
         />
         <meta name="og:title" content="oh884U8.blog" />
         <meta property="og:image" content={ogImageUrl} />
-        <meta name="twitter:site" content="@_ijjk" />
+        <meta name="twitter:site" content="@oh884U8" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
