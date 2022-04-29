@@ -25,11 +25,6 @@ const contacts = [
     alt: 'linkedin icon',
     link: 'https://www.linkedin.com/in/yuya-ohbayashi/',
   },
-  {
-    Comp: Envelope,
-    alt: 'envelope icon',
-    link: 'yuya9445@gmail.com',
-  },
 ]
 
 export default function Contact() {
