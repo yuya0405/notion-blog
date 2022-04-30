@@ -19,12 +19,12 @@ const Header = ({ titlePre = '' }) => {
   return (
     <header className={styles.header}>
       <Head>
-        <title>{titlePre ? `${titlePre} |` : ''} oh884U8.blog</title>
+        <title>{titlePre ? `${titlePre} |` : ''} oh884U8.dev</title>
         <meta
           name="description"
           content="An example Next.js site using Notion for the blog"
         />
-        <meta name="og:title" content="oh884U8.blog" />
+        <meta name="og:title" content="oh884U8.dev" />
         <meta property="og:image" content={ogImageUrl} />
         <meta name="twitter:site" content="@oh884U8" />
         <meta name="twitter:card" content="summary_large_image" />
