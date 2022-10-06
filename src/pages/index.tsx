@@ -15,15 +15,15 @@ export default function Index() {
           alt="Vercel + Notion"
         />
         <h1>oh884U8.dev</h1>
-        <h2>oh884U8's Portfolio</h2>
+        <h2>君のキャリアは生存戦略</h2>
 
-        <Features />
+        {/* <Features /> */}
 
-        <div className="explanation">
+        {/* <div className="explanation">
           <p>aaa</p>
 
           <p>aaa</p>
-        </div>
+        </div> */}
       </div>
     </>
   )
