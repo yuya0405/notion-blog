@@ -16,6 +16,7 @@ export default function Index() {
         />
         <h1>oh884U8.dev</h1>
         <h2>君のキャリアは生存戦略</h2>
+        <h2>僕は高い給料を愛している</h2>
 
         {/* <Features /> */}
 
