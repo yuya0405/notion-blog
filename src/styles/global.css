@@ -1,55 +1,4 @@
-/*
- * Globals
- */
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-}
-
-/*
- * Base structure
- */
-
-body {
-  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
-}
-
-.cover-container {
-  max-width: 42em;
-}
-
-/*
- * Header
- */
-
-.nav-masthead .nav-link {
-  padding: 0.25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: transparent;
-  border-bottom: 0.25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
-/* :root {
+:root {
   --gap-quarter: 0.25rem;
   --gap-half: 0.5rem;
   --gap: 1rem;
@@ -93,10 +42,10 @@ body {
     radial-gradient(#ddd 1px, transparent 1px);
   background-position: 0 0, 25px 25px;
   background-attachment: fixed;
-  background-size: 50px 50px; */
+  background-size: 50px 50px;
 
-/* Hack */
-/* overflow-x: hidden;
+  /* Hack */
+  overflow-x: hidden;
 }
 
 code[class*='language-'],
@@ -208,9 +157,9 @@ code[class*='language-css'] {
 .token.directive.tag .tag {
   background: #ff0;
   color: #393a34;
-} */
+}
 /* dark */
-/* pre.dark[class*='language-'] {
+pre.dark[class*='language-'] {
   color: #fafbfc;
 }
 .language-json .dark .token.boolean {
@@ -424,4 +373,4 @@ footer span:nth-child(3) {
 
 footer span:nth-child(3) a {
   color: inherit;
-} */
+}
