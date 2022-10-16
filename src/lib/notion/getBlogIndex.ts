@@ -54,7 +54,7 @@ export default async function getBlogIndex(previews = true) {
             const postB = postsTable[b]
             const timeA = postA.Date
             const timeB = postB.Date
-            return Math.sign(timeA - timeB)
+            return Math.sign(timeB - timeA)
           })
           .map(async (postKey) => {
             await sema.acquire()
