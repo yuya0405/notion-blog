@@ -5,7 +5,11 @@ export default function Footer() {
     <>
       <footer>
         <span>Deploy your own!</span>
-        <p>\n</p>
+
+        <div>
+          <br />
+        </div>
+
         <ExtLink href="https://vercel.com/new/git/external?repository-url=https://github.com/ijjk/notion-blog/tree/main&project-name=notion-blog&repository-name=notion-blog">
           <img
             src="https://vercel.com/button"
@@ -14,7 +18,11 @@ export default function Footer() {
             alt="deploy to Vercel button"
           />
         </ExtLink>
-        <p>\n</p>
+
+        <div>
+          <br />
+        </div>
+
         <span>
           or{' '}
           <ExtLink href="https://github.com/yuya0405/notion-blog">
