@@ -14,7 +14,7 @@ export default function Index() {
           width="250"
           alt="Vercel + Notion"
         />
-        <h1>oh884U8.dev（仮）</h1>
+        <h1>oh884U8.dev</h1>
         <h2>君の列車（キャリア）は生存戦略</h2>
         <h2>僕は君（高い給料）を愛している</h2>
 
